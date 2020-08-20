@@ -1,5 +1,5 @@
 # Capitalize
-A package for capitalizing a given string. This is my first published npm
+A package for capitalizing letters. This is my first published npm
 pacakge, created for me to experiment with the process.
 
 ## Installation
@@ -8,7 +8,28 @@ npm install chumnend-capitalize
 ``
 
 ## Usage
-``
-const capitalze = require('chumnend-capitalize');
+Import the package into your project,
+```
+const capitalize = require('chumnend-capitalize');
+```
 
-console.log( capitalize('hello world') ) // ouputs: 'HELLO WORLD'
+### Capitalize all letters
+```
+const str = 'hello world'
+const res = capitalize(str);
+console.log(res); // Outputs: 'HELLO WORLD'
+```
+
+### Capitalize only first character
+```
+const str = 'hello world'
+const res = capitalize(str, 'first');
+console.log(res); // Outputs: 'Hello world'
+```
+
+### Capitalize first character of each word
+```
+const str = 'hello world'
+const res = capitalize(str, 'words');
+console.log(res); // Outputs: 'Hello World'
+```
