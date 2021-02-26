@@ -4,7 +4,7 @@ pacakge, created for me to experiment with the process.
 
 ## Installation
 ``
-npm install chumnend-capitalize
+npm install @chumnend/capitalize
 ``
 
 ## Usage
