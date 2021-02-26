@@ -10,7 +10,7 @@ npm install chumnend-capitalize
 ## Usage
 Import the package into your project,
 ```
-const capitalize = require('chumnend-capitalize');
+const capitalize = require('@chumnend/capitalize');
 ```
 
 ### Capitalize all letters
