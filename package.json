@@ -1,5 +1,5 @@
 {
-  "name": "chumnend-capitalize",
+  "name": "@chumnend/capitalize",
   "version": "1.0.0",
   "description": "This package is used to capitalize the letters of a given string",
   "main": "src/index.js",
@@ -8,9 +8,9 @@
     "test": "test"
   },
   "scripts": {
-    "lint": "npx eslint 'src/**/*.js'",
-    "format": "prettier --write 'src/**/*.js'",
-    "test": "mocha './{,!(node_modules)/**}/*.test.js'"
+    "lint": "./node_modules/.bin/eslint ./src/**/*.js",
+    "lint:fix": "./node_modules/.bin/prettier --write ./src/**/*.js",
+    "test": "./node_modules/.bin/mocha './{,!(node_modules)/**}/*.test.js'"
   },
   "keywords": [
     "node",
@@ -22,9 +22,12 @@
   "license": "MIT",
   "homepage": "https://github.com/chumnend/chumnend-capitalize",
   "devDependencies": {
-    "chai": "^4.2.0",
-    "eslint": "^7.7.0",
-    "mocha": "^8.1.1",
-    "prettier": "^2.0.5"
+    "chai": "^4.3.0",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "mocha": "^8.3.0",
+    "prettier": "^2.2.1"
+
   }
 }
