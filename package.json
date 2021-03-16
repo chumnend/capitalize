@@ -20,7 +20,7 @@
   ],
   "author": "Nicholas Chumney",
   "license": "MIT",
-  "homepage": "https://github.com/chumnend/chumnend-capitalize",
+  "homepage": "https://github.com/chumnend/capitalize",
   "devDependencies": {
     "chai": "^4.3.0",
     "eslint": "^7.20.0",
