@@ -1,4 +1,8 @@
-# Capitalize
+# Capitalize 
+![npm](https://img.shields.io/npm/v/@chumnend/capitalize)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/chumnend/capitalize)
+![GitHub](https://img.shields.io/github/license/chumnend/capitalize)
+
 A package for capitalizing letters. This is my first published npm
 pacakge, created for me to experiment with the process.
 
