@@ -3,7 +3,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/chumnend/capitalize)
 ![GitHub](https://img.shields.io/github/license/chumnend/capitalize)
 
-A package for capitalizing strings.
+A package for capitalizing letters in a given string.
 
 ## Installation
 ``
