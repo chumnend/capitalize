@@ -4,7 +4,7 @@
 ![GitHub](https://img.shields.io/github/license/chumnend/capitalize)
 
 A package for capitalizing letters. This is my first published npm
-pacakge, created for me to experiment with the process.
+package, created for me to experiment with the process.
 
 ## Installation
 ``
