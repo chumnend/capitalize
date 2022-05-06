@@ -3,8 +3,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/chumnend/capitalize)
 ![GitHub](https://img.shields.io/github/license/chumnend/capitalize)
 
-A package for capitalizing letters. This is my first published npm
-package, created for me to experiment with the process.
+A package for capitalizing strings.
 
 ## Installation
 ``
